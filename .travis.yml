@@ -5,6 +5,6 @@ deploy:
   provider: heroku
   api_key:
     secure: AWNpHU4Ck/CGA727BdvJhu1k8+DZ0fCVRKSpd9ZKRgKbiWF/ytFHJk2+xhreRtdh+RH9txduNPjTGu6SkwdKv21v4PCvOhiEeMZtiYVsvxe8x5vYU+UaP6VsNStAeka34cKJrGswVG2JsKwTZZhvwn919Pj7ux0XJcfSugj6x3Ff4xPbeupsaCOKjOtSGZUG4xGZWDkY1zKMnF0Kw5pykCdgRqVLVVWGYERvQe4OH39nE3QdK7zEEcsrOMZymcRIVM7rsn4kkWGy630UHdqVBSrjGb0t0H3Y9uSk072KjSVYcQ/iut6JyXwBLJAnSG6SHlYu3u5YXlYqpEfxUZ33ESS/TH3YmnP8R2BbPr3E7Dla7+Anlro7DFCRwFKr6jmZ7gq+VcVHp88WP7tPvukWWRirr4dcYDjXZ+how/H4boO6S3E8jfPD4k3zoHVvEI2VEej+FiSLXCkg7/NBfogsGdnsGzos/BP+Nj3+hyeZ0EC0PZ3GeBYo38DZ6CH0wLBnZ0PTe+vEVgwNyB+nLvYY9JNOtHl+PKTzbytl7TAI6knXGJtDEj/1Sr43E9qUNdEnmkZ5dPX6Dd0BhtMrRKeI2o0z7WyrfXp1YZ5U5UztHeji/AM0vuxLgQHK29VYWYTi21KOs1korU06AnFDNpCqefo+lgfvHtUi/CzsQsn+Uuc=
-  app: projet
+  app: lpa2-yann
   on:
     repo: YannPoncet/projet
