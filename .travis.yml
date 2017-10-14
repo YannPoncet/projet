@@ -8,3 +8,4 @@ deploy:
   app: lpa2-yann
   on:
     repo: YannPoncet/projet
+  run: "rake db:migrate"
