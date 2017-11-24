@@ -1,6 +1,6 @@
 language: ruby
 rvm:
-- 2.2
+- 2.3.4
 deploy:
   provider: heroku
   api_key:
@@ -8,4 +8,5 @@ deploy:
   app: lpa2-yann
   on:
     repo: YannPoncet/projet
+  run: "rake db:test:prepare"
   run: "rake db:migrate"
