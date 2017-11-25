@@ -18,7 +18,7 @@ class TownsControllerTest < ActionController::TestCase
 
   test "should create town" do
     assert_difference('Town.count') do
-      post :create, town: { lat: @town.lat, lon: @town.lon, name: @town.name }
+      post :create, town: { latitude: @town.latitude, longitude: @town.longitude, name: @town.name }
     end
 
     assert_redirected_to town_path(assigns(:town))
@@ -35,7 +35,7 @@ class TownsControllerTest < ActionController::TestCase
   end
 
   test "should update town" do
-    patch :update, id: @town, town: { lat: @town.lat, lon: @town.lon, name: @town.name }
+    patch :update, id: @town, town: { latitude: @town.latitude, longitude: @town.longitude, name: @town.name }
     assert_redirected_to town_path(assigns(:town))
   end
 
