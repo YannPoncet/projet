@@ -17,8 +17,8 @@
 
 <p>
    <strong>Weather</strong>
-   Summary: <%= resource.currently.summary %>
-   Temperature: <%= ((resource.currently.temperature -32)*5/9).round %>°C
+   Summary: <%= resource.currently.summary %><br>
+   Temperature: <%= ((resource.currently.temperature- 32)*5/9).round %>°C
 </p>
 
 <%= link_to 'Edit', edit_town_path(@town) %> |
